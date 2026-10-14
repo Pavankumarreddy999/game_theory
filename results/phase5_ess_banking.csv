@@ -1,0 +1,21 @@
+rule,strategy,eq_share,start,end_share,verdict
+classic,Random Trader,0.019,0.05,0.009±0.004,stable
+classic,MA Crossover,0.033,0.05,0.045±0.028,stable
+classic,RSI Mean-Reversion,0.784,0.05,0.869±0.048,stable
+classic,Turtle Breakout,0.118,0.05,0.031±0.022,drifts
+classic,Kalman Trend,0.046,0.05,0.045±0.013,stable
+sticky (2%),Random Trader,0.017,0.05,0.013±0.004,stable
+sticky (2%),MA Crossover,0.034,0.05,0.070±0.015,drifts
+sticky (2%),RSI Mean-Reversion,0.694,0.05,0.722±0.043,stable
+sticky (2%),Turtle Breakout,0.164,0.05,0.089±0.036,drifts
+sticky (2%),Kalman Trend,0.09,0.05,0.094±0.006,stable
+noisy (Fermi),Random Trader,0.103,0.05,0.107±0.009,stable
+noisy (Fermi),MA Crossover,0.157,0.05,0.177±0.024,stable
+noisy (Fermi),RSI Mean-Reversion,0.355,0.05,0.370±0.027,stable
+noisy (Fermi),Turtle Breakout,0.247,0.05,0.218±0.031,stable
+noisy (Fermi),Kalman Trend,0.139,0.05,0.147±0.008,stable
+sticky+noisy,Random Trader,0.08,0.05,0.065±0.003,stable
+sticky+noisy,MA Crossover,0.145,0.05,0.136±0.014,stable
+sticky+noisy,RSI Mean-Reversion,0.435,0.05,0.413±0.013,stable
+sticky+noisy,Turtle Breakout,0.208,0.05,0.219±0.017,stable
+sticky+noisy,Kalman Trend,0.132,0.05,0.138±0.005,stable
